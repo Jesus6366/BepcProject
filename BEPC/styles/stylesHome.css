@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo_image {
+    width: 15vh;
+}
+
+.header {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: #022e4c;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #022e4c;
+
+
+    /* padding: 20px; */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    */
+}
+
+
+.file_selector {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: larger;
+}
+
+h4 {
+    color: #022e4c;
+
+}
+
+.files {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    align-items: center;
+    color: #1C6EA4;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.inner_files:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.inner_files {
+    background-color: rgb(236, 235, 233);
+    border: 1px solid #1C6EA4;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+}
+
+.delete {
+    padding-bottom: 20px;
+    color: brown;
+}
+
+
+a {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-decoration: none;
+    color: #022e4c;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.doc_names {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #1C6EA4;
+}
+
+.goBack {
+    padding: 20px;
+
+}
+
+.go_back_submit {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1C6EA4;
+    cursor: pointer;
+    color: white;
+    background-color: #022e4c;
+}
+
+.go_back_submit:active {
+
+    box-shadow: 0 5px #b9b6b6;
+    transform: translateY(2px);
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding: 5px;
+
+    }
+
+    .logo_image {
+        width: 10vh;
+    }
+
+    .header {
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    .file_selector {
+        font-size: 15px;
+    }
+}

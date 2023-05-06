@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: #022e4c;
+
+
+    width: 100%;
+    background-image: url("../images/joel-filipe-VuwAfoHpxgs-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.logo_image {
+    width: 30vh;
+}
+
+.goBack {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #1C6EA4;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    background-color: #022e4c;
+}
+
+
+.goBack:active {
+
+    box-shadow: 0 5px #b9b6b6;
+    transform: translateY(2px);
+}
